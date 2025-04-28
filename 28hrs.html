@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28hrs of web development</title>
+</head>
+<body>
+    Hello <hr> I am Saurabh <br> and I am a developer
+    <hr>
+<h1>Welcome everyone</h1>
+<h2><b>on my html page</b></h2>
+<p>i am a para</p>
+<i>i am in italic style</i>
+<br>
+<u>i am an underline</u>
+<br>
+<mark>i highlight the text</mark>
+<br>
+<del>i mark a line over text</del>
+<ol type="A">
+    <li>apple</li>
+    <li>boy</li>
+</ol>
+<ul type="square">
+    <li>apple</li>
+    <li>boy</li>
+</ul>
+<img src="jpg." title="name" height="40px" width="40px" alt="image not loaded">
+
+Anchor Tag
+<a href="https://www.google.com/" target="_blank">Go to Google</a>
+<br>
+<a href="https://www.google.com/" target="_parent">Go to Google</a>
+<a href="https://www.google.com/">Go to Google</a>
+<!-- both red dots means same action -->
+<br>
+a <sup>2 <sup> 2</sup></sup>
+<br>
+b <sub>2 </sub>
+<br>
+<center>a+b</center>
+<br>
+<meter min="0" max="100" value="25"></meter>
+<br>
+Table Tag
+<br>
+<table >
+    <thead>
+        <tr>
+            <th>courses</th>
+            <th>fees</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Web development</td>
+            <td>10000</td>
+            <tr>
+                <td>laravel</td>
+                <td>7000</td>
+
+            </tr>
+        </tr>
+    </tbody>
+</table>
+<br>
+Table Atribute
+<br>
+<table bgcolor="yellow" border="1.5" align="center" cellpadding="10" cellspacing="10" width="100" height="100" > 
+    <thead>
+        <tr>
+            <th>courses</th>
+            <th>fees</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Web development</td>
+            <td>10000</td>
+            <tr>
+                <td>laravel</td>
+                <td>7000</td>
+
+            </tr>
+        </tr>
+    </tbody>
+</table>
+<br>
+Table tr Atribute
+<br>
+<table >
+    <thead>
+        <tr bgcolor="orange" align="center"  >
+            <th>courses</th>
+            <th>fees</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Web development</td>
+            <td>10000</td>
+            <tr>
+                <td>laravel</td>
+                <td>7000</td>
+
+            </tr>
+        </tr>
+    </tbody>
+</table>
+<br>
+Table td th Atribute
+<br>
+<table>
+    <thead>
+        <tr>
+            <th bgcolor="green" colspan="2" >courses</th>
+            <th bgcolor="green" colspan="2" >fees</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="5">Web development</td>
+            <td rowspan="5">10000</td>
+            <tr>
+                <td bgcolor="aqua" rowspan="2" >laravel</td>
+                <td bgcolor="aqua" rowspan="2" >7000</td>
+
+            </tr>
+        </tr>
+    </tbody>
+</table>
+<br>
+Form 
+<br>
+<form>
+    <fieldset>
+        <legend>enquiry</legend>
+        <br>
+        name : <input type="text" name="name" value="saurabh" disabled="" >
+        <!-- disabled use to disable in file  not be submitted -->
+        <br>
+        color: <input type="color" name="color" value="#FF0000">
+        <br>
+        Email: <input type="email" name="email">
+        <br>
+        password : <input type="password" name="password" >
+        <br>
+        secret : <input type="hidden" name="secret" >
+        <br>
+age: <input type="number" name="age" min="17" max="35">
+        <br>
+        <input type="submit" name="" >
+        <br>
+    name: <input type="text" name="name" value="Saurabh" placeholder="enter your name here..." required="" readonly="" autofocus=""><br>
+    <!-- autofocus use to blink curser at a place initialy & required use to no option you have to fill  -->
+    <!-- readonly use to only read not to change the name in this  -->
+    address: <textarea name="address" maxlength="100" ></textarea>
+    <!-- maxlength mean using only 100 letters  -->
+    <br>
+    gender: <input type="radio" value="m" name="gender" > male
+    <input type="radio" value="f" name="gender"  >female
+    <br>
+    country: 
+    <select >
+        <option>please select a country </option>
+<optgroup label="asia">
+    <option value="india">india</option>
+    <option value="russia">russia</option>
+</optgroup>
+<option value="usa">usa    </option>
+    </select><br>
+    hobbies:
+    <input type="checkbox" name="hobbies">dancing
+    <input type="checkbox" name="hobbies">singing
+    <input type="checkbox" name="hobbies" checked="">driving
+    <!-- checked used to checked the box already when ever enter  -->
+    <br>
+    image:
+    <input type="file" name="image" >
+    <br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</fieldset>
+</form>
+<br>
+Calender Elements
+<br>
+<form >
+    <fieldset>
+        <legend>Calender</legend>
+        Date : <input type="data" name="date">
+        <br>
+        Date Time : <input type="datetime-local" name="date time">
+        <br>
+        time : <input type="time" name="time">
+        <br>
+month: <input type="month" name="" >
+<br>
+week : <input type="week">
+<br>
+range : <input type="range" min="50" max="200" value="100">
+<br>
+    </fieldset>
+</form>
+<br>
+<br>
+<!-- Div  -->
+<br>
+<div>
+    <div>home</div>
+    <div>about</div>
+</div>
+
+<br>
+<!-- CSS  -->
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
